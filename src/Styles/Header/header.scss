@@ -1,0 +1,50 @@
+@import '../global.scss';
+
+header {
+    max-width: 1180px;
+    width: 100%;
+    margin: 80px auto 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .header-text-area {
+        max-width: 45.60%;
+        h1 {
+            max-width: 489px;
+            display: inline-block;
+            font-family: 'Playfair Display', serif;
+            font-size: $h1--desktop;
+            font-weight: 700;
+            color: $neutral500;
+            line-height: 88px;
+            margin: 0 0 15px;
+        }
+        p {
+            max-width: 489px;
+            display: inline-block;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 34px;
+            color: $neutral300;
+            margin: 15px 0;
+        }
+        button {
+            width: 140px;
+            height: 51px;
+            border: $primary400 1px solid;
+            border-radius: 2px;
+            background-color: $primary400;
+            color: #fff;
+            font-weight: 700;
+            font-size: 14px;
+            font-family: 'Open Sans', sans-serif;
+            white-space: nowrap;
+            padding: 16px 30px;
+            margin: 30px 0 0;
+        }
+    }
+    .hero {
+        width: 54.40%;
+    }
+}

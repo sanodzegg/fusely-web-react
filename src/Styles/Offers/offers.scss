@@ -1,0 +1,62 @@
+@import '../global.scss';
+
+section {
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 220px;
+    .partners {
+        max-width: 900px;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        gap: 102.7px;
+        img {
+            height: fit-content;
+        }
+    }
+    .off-sect {
+        display: flex;
+        justify-content: center;
+        gap: 180px;
+        .offer-text-area {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            h2 {
+                display: inline-block;
+                max-width: 400px;
+                font-size: $h2--desktop;
+                font-family: 'Playfair Display', serif;
+                font-weight: 700;
+                line-height: 64px;
+                color: $neutral500;
+            }
+            p {
+                display: inline-block;
+                max-width: 400px;
+                font-size: 20px;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 400;
+                line-height: 34px;
+                color: $neutral300;
+            }
+            button {
+                font-size: 18px;
+                font-family: 'Open Sans', sans-serif;
+                line-height: 20px;
+                width: 100px;
+                height: 22px;
+                background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(226,225,255,1) 51%, rgba(226,225,255,1) 100%);
+                border: none;
+                outline: none;
+                white-space: nowrap;
+                padding: 0;
+            }
+        }
+    }
+}

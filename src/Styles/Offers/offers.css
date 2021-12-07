@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+section {
+  max-width: 1180px;
+  width: 100%;
+  margin: 0 auto 220px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 220px;
+}
+
+section .partners {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 102.7px;
+}
+
+section .partners img {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+section .off-sect {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 180px;
+}
+
+section .off-sect .offer-text-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+section .off-sect .offer-text-area h2 {
+  display: inline-block;
+  max-width: 400px;
+  font-size: 60px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  line-height: 64px;
+  color: #2f2e41;
+}
+
+section .off-sect .offer-text-area p {
+  display: inline-block;
+  max-width: 400px;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 34px;
+  color: #9893A3;
+}
+
+section .off-sect .offer-text-area button {
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 20px;
+  width: 100px;
+  height: 22px;
+  background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(50%, white), color-stop(51%, #e2e1ff), to(#e2e1ff));
+  background: linear-gradient(180deg, white 0%, white 50%, #e2e1ff 51%, #e2e1ff 100%);
+  border: none;
+  outline: none;
+  white-space: nowrap;
+  padding: 0;
+}
+/*# sourceMappingURL=offers.css.map */
