@@ -29,6 +29,22 @@ function Offers() {
                     <button>Learn more</button>
                 </div>
             </div>
+            <div className="off-sect">
+                <div className="offer-text-area">
+                    <h2>Creative Solutions</h2>
+                    <p>Creativity is our second name. We're full of inventive ideas and we're happy to present them to you.</p>
+                    <button>Learn more</button>
+                </div>
+                <img src={illustration2} alt="Offering illustration" />
+            </div>
+            <div className="off-sect">
+                <img src={illustration3} alt="Offering illustration" />
+                <div className="offer-text-area">
+                    <h2>Professional Team</h2>
+                    <p>Well, obviously, we're professionals. Don't hesitate - get to know us better.</p>
+                    <button>Learn more</button>
+                </div>
+            </div>
         </section>
     );
 }

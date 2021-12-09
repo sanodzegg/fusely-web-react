@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+footer {
+  max-width: 1440px;
+  width: 100%;
+  margin: 370px auto 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #ECEBFF99;
+  position: relative;
+}
+
+footer .footer-contact {
+  position: absolute;
+  left: 50%;
+  bottom: 77%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 200px;
+  max-width: 900px;
+  width: 100%;
+  height: 296px;
+  background-color: #2f2e41;
+}
+
+footer .footer-contact h1 {
+  display: inline-block;
+  max-width: 346px;
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 56px;
+}
+
+footer .footer-contact button {
+  width: 186px;
+  height: 54px;
+  padding: 16px 30px;
+  background-color: #6C63FF;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+}
+
+footer .footer-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  max-width: 900px;
+  margin: 176.5px auto 84px;
+  gap: 170px;
+}
+
+footer .footer-main h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #2f2e41;
+  font-size: 18px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+footer .footer-main ul {
+  margin: 0;
+  padding: 0;
+}
+
+footer .footer-main li {
+  list-style: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #717082;
+  padding: 4px 0;
+  white-space: nowrap;
+}
+
+footer .footer-main .social-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 12px;
+  max-width: 120px;
+  width: 100%;
+}
+
+footer .footer-main .social-links .fa {
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+  border-radius: 1px;
+  outline: none;
+  border: none;
+}
+
+footer .footer-main .social-links a {
+  text-decoration: none;
+  color: #717082;
+  font-size: larger;
+  line-height: 33px;
+  text-align: center;
+}
+
+footer .footer-credits {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto 40px;
+}
+
+footer .footer-credits .logo {
+  width: 7%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .footer-credits .logo svg {
+  min-width: 19px;
+  min-height: 27px;
+}
+
+footer .footer-credits .logo span {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: #2f2e41;
+}
+
+footer .footer-credits h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #9893A3;
+}
+/*# sourceMappingURL=footer.css.map */

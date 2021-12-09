@@ -1,6 +1,8 @@
 import Navbar from "./Comps/Navbar";
 import Header from "./Comps/Header";
 import Offers from "./Comps/Offers";
+import Plans from "./Comps/PlansNContent";
+import Footer from "./Comps/Footer";
 
 function App() {
   return (
@@ -8,6 +10,8 @@ function App() {
       <Navbar />
       <Header />
       <Offers />
+      <Plans />
+      <Footer />
     </div>
   );
 }

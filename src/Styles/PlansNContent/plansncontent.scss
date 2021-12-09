@@ -1,0 +1,146 @@
+@import '../global.scss';
+
+.plans-n-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto 220px;
+    gap: 90px;
+    h1 {
+        text-align: center;
+        font-size: $h2--desktop;
+        font-weight: 700;
+        line-height: 64px;
+        color: $neutral500;
+        margin-bottom: 86px;
+    }
+    .plan-offerings {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        max-width: 1180px;
+        gap: 45px;
+        .premium {
+            background-color: $primary400;
+            h1, p {
+                color: #fff;
+            }
+            button {
+                width: 186px;
+                height: 54px;
+                padding: 16px 46.5px;
+                background-color: #fff;
+                font-weight: 700;
+                font-size: $body-small;
+                line-height: 21px;
+                text-align: center;
+            }
+        }
+        div {
+            width: 363px;
+            max-height: 502px;
+            background-color: #ECEBFF4D;
+            padding: 49px 88px;
+        }
+        h1, p {
+            text-align: center;
+            font-family: 'Open Sans', sans-serif;
+        }
+        h1 {
+            font-size: $h3--desktop;
+            font-weight: 700;
+            line-height: 56px;
+            margin: 40px 0;
+            span {
+                font-size: $body-title;
+                font-weight: 400;
+            }
+        }
+        p {
+            margin: 14px 0;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 28px;
+            color: $neutral400;
+        }
+        button {
+            display: flex;
+            margin: 26px auto;
+            padding: 16px 30px;
+            width: 140px;
+            height: 51px;
+            border: 1px $primary400 solid;
+            border-radius: 2px;
+            font-family: 'Open Sans', sans-serif;
+            color: $primary400;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 19px;
+            white-space: nowrap;
+        }
+    }
+    .blog-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1180px;
+        width: 100%;
+        margin-top: 105px;
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: $h2--desktop;
+            font-weight: 700;
+            line-height: 64px;
+            margin: 0;
+            color: $neutral500;
+        }
+        button {
+            width: 115px;
+            height: 51px;
+            border-radius: 2px;
+            border: 1px $primary400 solid;
+            color: $primary400;
+            padding: 16px 30px;
+        }
+    }
+    .blog-flexbox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 45px;
+        div {
+            width: 363.33px;
+            height: 414px;
+            h4 {
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 600;
+                font-size: 22px;
+                line-height: 23px;
+                color: $neutral500;
+                margin: 26px auto 3px;
+            }
+            p {
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 400;
+                font-size: $body-small;
+                color: $neutral300;
+                margin: 3px auto 26px;
+            }
+            button {
+                font-size: 18px;
+                font-family: 'Open Sans', sans-serif;
+                line-height: 20px;
+                width: 100px;
+                height: 22px;
+                background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(226,225,255,1) 51%, rgba(226,225,255,1) 100%);
+                border: none;
+                outline: none;
+                white-space: nowrap;
+                padding: 0;
+            }
+        }
+    }
+}
