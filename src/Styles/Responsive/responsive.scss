@@ -1,0 +1,146 @@
+@media screen and (max-width: 930px) {
+    nav {
+        max-width: 930px;
+        width: 100%;
+        justify-content: space-between;
+        box-sizing: border-box;
+        padding: 49.5px 80px;
+        .logo {
+            width: auto;
+        }
+        .navigation, .authorization {
+            display: none;
+        }
+        .burger-menu {
+            display: block;
+        }
+    }
+    header {
+        flex-direction: column;
+        gap: 30px;
+        .hero {
+            width: 100%;
+            img {
+                display: flex;
+                margin: 0 auto;
+            }
+        }
+        .header-text-area {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            max-width: 688px;
+            width: 100%;
+            h1 {
+                width: 100%;
+                max-width: 688px;
+            }
+            p {
+                width: 100%;
+                max-width: 650px;
+            }
+        }
+    }
+    .offers {
+        gap: 140px;
+        .partners {
+            gap: 78.7px;
+        }
+        .off-sect {
+            flex-direction: column;
+            gap: 50px;
+            .offer-text-area {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                max-width: 688px;
+                width: 100%;
+                h2 {
+                    width: 100%;
+                    max-width: 688px;
+                    margin: 0;
+                }
+                p {
+                    width: 100%;
+                    max-width: 688px;
+                    margin: 24px auto;
+                }
+            }
+        }
+        .off-sect:nth-child(2), .off-sect:nth-child(4) {
+            flex-direction: column-reverse;
+        }
+    }
+    .plans-n-content {
+
+        .plans {
+
+            .plan-offerings {
+                flex-direction: column;
+                gap: 45px;
+                div {
+                    width: 100%;
+                    max-width: 688px;
+                }   
+            }
+        }
+        .blog-flexbox {
+            flex-direction: column;
+            width: 100%;
+            max-width: 688px;
+            div {
+                display: flex;
+                width: 100%;
+                max-width: 688px;
+                height: 232px;
+                gap: 27px;
+                .blog-text-area {
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: center;
+                    height: 100%;
+                    gap: 0;
+                    h4 {
+                        margin: 26px 0 3px;
+                    }
+                }
+            }
+        }
+    }
+    footer {
+
+        .footer-main {
+            justify-content: space-evenly;
+            gap: 15vw;
+        }
+        .footer-credits {
+            max-width: 100vw;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .offers {
+        .partners {
+            gap: 6%;
+        }
+    }
+    footer {
+        .footer-contact {
+            max-width: 768px;
+            width: 100%;
+            button {
+                white-space: nowrap;
+            }
+        }
+        .footer-credits {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0 0 40px;
+        }
+    }
+}
+
+@media screen and (max-width: 585px) {
+
+}

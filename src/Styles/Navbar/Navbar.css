@@ -104,4 +104,8 @@ nav .authorization .join {
   white-space: nowrap;
   padding: 16px 30px;
 }
+
+nav .burger-menu {
+  display: none;
+}
 /*# sourceMappingURL=Navbar.css.map */

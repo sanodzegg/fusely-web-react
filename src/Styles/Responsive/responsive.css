@@ -1,0 +1,176 @@
+@media screen and (max-width: 930px) {
+  nav {
+    max-width: 930px;
+    width: 100%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 49.5px 80px;
+  }
+  nav .logo {
+    width: auto;
+  }
+  nav .navigation, nav .authorization {
+    display: none;
+  }
+  nav .burger-menu {
+    display: block;
+  }
+  header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 30px;
+  }
+  header .hero {
+    width: 100%;
+  }
+  header .hero img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+  }
+  header .header-text-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    max-width: 688px;
+    width: 100%;
+  }
+  header .header-text-area h1 {
+    width: 100%;
+    max-width: 688px;
+  }
+  header .header-text-area p {
+    width: 100%;
+    max-width: 650px;
+  }
+  .offers {
+    gap: 140px;
+  }
+  .offers .partners {
+    gap: 78.7px;
+  }
+  .offers .off-sect {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 50px;
+  }
+  .offers .off-sect .offer-text-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    max-width: 688px;
+    width: 100%;
+  }
+  .offers .off-sect .offer-text-area h2 {
+    width: 100%;
+    max-width: 688px;
+    margin: 0;
+  }
+  .offers .off-sect .offer-text-area p {
+    width: 100%;
+    max-width: 688px;
+    margin: 24px auto;
+  }
+  .offers .off-sect:nth-child(2), .offers .off-sect:nth-child(4) {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .plans-n-content .plans .plan-offerings {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 45px;
+  }
+  .plans-n-content .plans .plan-offerings div {
+    width: 100%;
+    max-width: 688px;
+  }
+  .plans-n-content .blog-flexbox {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    max-width: 688px;
+  }
+  .plans-n-content .blog-flexbox div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    max-width: 688px;
+    height: 232px;
+    gap: 27px;
+  }
+  .plans-n-content .blog-flexbox div .blog-text-area {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 100%;
+    gap: 0;
+  }
+  .plans-n-content .blog-flexbox div .blog-text-area h4 {
+    margin: 26px 0 3px;
+  }
+  footer .footer-main {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    gap: 15vw;
+  }
+  footer .footer-credits {
+    max-width: 100vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .offers .partners {
+    gap: 6%;
+  }
+  footer .footer-contact {
+    max-width: 768px;
+    width: 100%;
+  }
+  footer .footer-contact button {
+    white-space: nowrap;
+  }
+  footer .footer-credits {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0 0 40px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

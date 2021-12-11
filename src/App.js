@@ -3,6 +3,7 @@ import Header from "./Comps/Header";
 import Offers from "./Comps/Offers";
 import Plans from "./Comps/PlansNContent";
 import Footer from "./Comps/Footer";
+import './Styles/Responsive/responsive.css';
 
 function App() {
   return (
