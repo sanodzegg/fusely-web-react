@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @media screen and (max-width: 930px) {
   nav {
     max-width: 930px;
@@ -7,7 +9,7 @@
             justify-content: space-between;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    padding: 49.5px 80px;
+    padding: 49.5px 40px;
   }
   nav .logo {
     width: auto;
@@ -152,6 +154,8 @@
   }
   footer .footer-credits {
     max-width: 100vw;
+    margin: 0;
+    padding: 0 20px 40px;
   }
 }
 
@@ -170,7 +174,156 @@
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     margin: 0;
-    padding: 0 0 40px;
+    padding: 0 20px 40px;
+  }
+}
+
+@media screen and (max-width: 587px) {
+  nav {
+    padding: 49.5px 20px;
+  }
+  .plans-n-content .plans .plan-offerings div {
+    width: 100%;
+    max-width: 388px;
+    padding: 49px 0;
+  }
+  .plans-n-content .blog-header h2 {
+    font-size: 60px;
+  }
+  .plans-n-content .blog-flexbox div {
+    width: 100%;
+    max-width: 388px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    gap: 0px;
+  }
+  footer .footer-contact {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 30px;
+    padding: 18.5px 0;
+  }
+  footer .footer-contact h1 {
+    margin: 0;
+    text-align: center;
+    max-width: 90%;
+  }
+  footer .footer-main {
+    margin: 215.5px 0 84px;
+    max-width: 350px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  footer .footer-credits {
+    padding: 0 20px 40px;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  nav {
+    padding: 20px 20px 40px;
+  }
+  header {
+    margin-top: 0px;
+    padding: 0 20px;
+  }
+  header .header-text-area {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  header .header-text-area h1 {
+    font-size: 46px;
+    line-height: 50px;
+  }
+  header .header-text-area p {
+    font-size: 20px;
+    line-height: 34px;
+  }
+  header .header-text-area button {
+    margin-top: 20px;
+  }
+  header .hero img {
+    max-width: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .offers {
+    padding: 0 20px;
+    gap: 100px;
+  }
+  .offers .partners {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-column-gap: 45.74px;
+            column-gap: 45.74px;
+    row-gap: 40px;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+  }
+  .offers .off-sect img {
+    max-width: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .offers .off-sect .offer-text-area {
+    max-width: 388px;
+  }
+  .offers .off-sect .offer-text-area h2 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  .offers .off-sect .offer-text-area p {
+    font-size: 20px;
+    line-height: 34px;
+  }
+  .plans-n-content {
+    max-width: 388px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .plans-n-content .plans h1 {
+    font-size: 34px;
+    font-family: 'Playfair Display', serif;
+  }
+  .plans-n-content .plans .plan-offerings div {
+    padding: 49px 48px;
+  }
+  .plans-n-content .plans .plan-offerings div p {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .plans-n-content .plans .plan-offerings div h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .plans-n-content .blog-header {
+    margin-top: 100px;
+    max-width: 388px;
+  }
+  .plans-n-content .blog-header h2 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  footer .footer-contact h1 {
+    font-size: 34px;
+    line-height: 40px;
   }
 }
 /*# sourceMappingURL=responsive.css.map */

@@ -33,9 +33,9 @@ function Footer() {
                 <ul className="footer-contact-social">
                     <h4>Get in touch</h4>
                     <div className="social-links">
-                        <a href="#" className="fa fa-facebook"></a>  
-                        <a href="#" className='fa fa-twitter'></a>
-                        <a href="#" className='fa fa-linkedin'></a>
+                        <a href="/#" className="fa fa-facebook"></a>  
+                        <a href="/#" className='fa fa-twitter'></a>
+                        <a href="/#" className='fa fa-linkedin'></a>
                     </div>
                 </ul>
             </div>

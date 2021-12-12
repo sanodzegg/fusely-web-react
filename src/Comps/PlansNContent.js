@@ -43,7 +43,7 @@ function Plans() {
             </div>
             <div className="blog-flexbox">
                 <div>
-                    <img src={pencils} alt="Picture of pencils and drawing materials." />
+                    <img src={pencils} alt="pencils and drawing materials." />
                     <div className="blog-text-area">
                         <h4>What’s Fusely?</h4>
                         <p>A brand new company, created for everyone. This article will help you understand what "fusely" stands for.</p>
@@ -51,7 +51,7 @@ function Plans() {
                     </div>
                 </div>
                 <div>
-                    <img src={notebook} alt="Picture a notebook." />
+                    <img src={notebook} alt="a notebook." />
                     <div className="blog-text-area">
                         <h4>Introducing Fusely Engage</h4>
                         <p>We’re happy to announce the Fusely Engage. The first growth automation platform designed for the digital interactions.</p>
@@ -59,7 +59,7 @@ function Plans() {
                     </div>
                 </div>
                 <div>
-                    <img src={brush} alt="Picture of a drawing brush." />
+                    <img src={brush} alt="a drawing brush." />
                     <div className="blog-text-area">
                         <h4>Premium vs Enterprise plan</h4>
                         <p>Let’s compare our most popular plans: Premium and Enterprise. This article will help you decide which one will be better for your needs.</p>

@@ -146,7 +146,9 @@ footer .footer-credits {
           align-items: center;
   max-width: 1280px;
   width: 100%;
-  margin: 0 auto 40px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 20px 40px;
 }
 
 footer .footer-credits .logo {
